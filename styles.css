@@ -1,7 +1,7 @@
 .container {
     margin: auto;
     width: 400px;
-    height: 650px;
+    height: 680px;
     padding: 15px;
     border: 2px black solid;
     border-radius: 10px;
@@ -9,6 +9,7 @@
     font-weight: bold;
     font-family:  Cursive, Ubuntu, Roboto, Arial, sans-serif;
     font-size: 25px;
+    caret-color: transparent;
 }
 
 .grid-container {
@@ -30,13 +31,26 @@
     font-weight: bold;
     font-size: 60px;
     cursor: pointer;
-    caret-color: transparent;
 }
 
 button {
+    margin-left: 10px;
     padding: 5px;
-    background-color: rgb(235, 233, 233);
+    background-color: #ebe9e9;
     width: 100px;
     height: 50px;
     border-radius: 20px;
+ }
+
+ #choice {
+     color: rgb(12, 14, 133);
+     text-shadow: 5px;
+     display: none;
+}
+
+span:hover {
+    background-color: bisque;
+    border-radius: 5px;
+    width: 90px;
+    height: 40px;
 }
