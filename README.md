@@ -25,3 +25,6 @@ The Algorithm
    - On function call, all the available spots in the current grid are stored in an array.
    - Function is called for each available spot and cost returned for each move is stored in an array with the position of that move.
    - The maximum of all the costs is selected as the optimal move. 
+
+#### Project Github Link
+https://github.com/heer-kukreja/TicTacToe-JavaScript
